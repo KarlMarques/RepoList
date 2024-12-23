@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/repo_list_fragment">
+
+    <fragment
+        android:id="@+id/repo_list_fragment"
+        android:name="com.twisted.minds.repolist.ui.screens.repolist.RepoListFragment"
+        android:layout="@layout/repo_list_fragment"
+        android:label="RepoListFragment">
+        <action
+            android:id="@+id/action_from_repo_list_to_pull_list"
+            app:destination="@+id/pull_list_fragment" />
+        <action
+            android:id="@+id/action_from_repo_list_to_error"
+            app:destination="@+id/error_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pull_list_fragment"
+        android:name="com.twisted.minds.repolist.ui.screens.pulllist.PullListFragment"
+        android:label="PullListFragment">
+        <action
+            android:id="@+id/action_from_pull_list_to_error"
+            app:destination="@+id/error_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/error_fragment"
+        android:name="com.twisted.minds.repolist.ui.screens.error.ErrorFragment"
+        android:label="ErrorFragment">
+    </fragment>
+
+</navigation>

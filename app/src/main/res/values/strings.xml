@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RepoList</string>
+
+    <!--RepoList-->
+    <string name="repo_list_title">GitHub Popular Java Repositories</string>
+
+    <!--RepoList Content Description-->
+    <string name="repo_list_name_content">Repository name: %s</string>
+    <string name="repo_list_description_content">Repository description: %s</string>
+    <string name="repo_list_fork_content">%s forks</string>
+    <string name="repo_list_star_content">%s stars</string>
+    <string name="repo_list_owner_content">Repository owner: %s</string>
+
+    <!--PullList-->
+    <string name="pull_list_title">%s Open Pull Requests</string>
+
+    <!--PullList Content Description-->
+    <string name="pull_list_name_content">Pull request title: %s</string>
+    <string name="pull_list_date_content">Pull request creation date: %s</string>
+    <string name="pull_list_description_content">Pull request description: %s</string>
+    <string name="pull_list_author_content">Pull request author: %s</string>
+
+    <!--Error-->
+    <string name="error_button">Try Again</string>
+
+    <!--ErrorType-->
+    <string name="error_type_network_error_header">Network Error</string>
+    <string name="error_type_network_error_code">Error code: EC1</string>
+    <string name="error_type_network_error_body">A network error has happened</string>
+
+    <string name="error_type_server_error_header">Server Error</string>
+    <string name="error_type_server_error_code">Error code: EC2</string>
+    <string name="error_type_server_error_body">A server error has happened</string>
+
+    <string name="error_type_generic_error_header">Generic Error</string>
+    <string name="error_type_generic_error_code">Error code: EC3</string>
+    <string name="error_type_generic_error_body">A generic error has happened</string>
+</resources>
